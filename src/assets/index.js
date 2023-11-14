@@ -36,6 +36,8 @@ import jobsng from "./jobsng.png";
 import kashinSS from "./kashinSS.png";
 import wande from "./wande.jpeg";
 import woman10 from "./woman10.jpg";
+import ttech from "./ttech.png";
+import ttechlogo from "./ttechlogo.png";
 
 
 
@@ -75,4 +77,6 @@ export {
   kashinSS,
   wande,
   woman10,
+  ttech,
+  ttechlogo,
 };

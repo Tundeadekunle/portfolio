@@ -126,7 +126,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/*LOGO AND NAME*/
+/*.logo-name {
+  background: -webkit-linear-gradient(75deg, #8899ee, #345aa8);
+  background: linear-gradient(75deg, #8899ee, #345aa8);
+  background-image: linear-gradient(75deg, #8899ee, #345aa8);
+  -webkit-background-clip: text;
+  background-clip: text;
 
+}*/
+.logo-text {
+  /*background: -webkit-linear-gradient(75deg, #8899ee, #345aa8);*/
+  background: linear-gradient(75deg, #8899ee, #345aa8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/*NAV HOVER*/
+.navs:hover {
+  background: linear-gradient(75deg, #8899ee, #345aa8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
@@ -138,7 +160,29 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
-
+.footer {
+  justify-content: center;
+  background: linear-gradient(45deg, #0d0018, #1212aa);
+  display: flex;
+}
+.footer_logo{
+  height: 60px;
+  align-self: center;
+}
+.ttechlogo {
+  height: 60px;
+  align-self: center;
+}
+.footer h1 {
+  justify-content: center;
+  padding: 40px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 640px) {
+.footer h1 {
+  font-size: 10px;
+}
+}
 @keyframes mulShdSpin {
   0%,
   100% {

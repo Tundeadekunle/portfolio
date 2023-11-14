@@ -48,15 +48,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Full Stack",
     icon: backend,
   },
   {
@@ -115,13 +111,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "KMTN",
+    title: "Frontend Developer",
+    company_name: "KMT",
     icon: kmtn,
     iconBg: "#E6DEDD",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js, CSS and other related technologies.",
+      "Developing a user friendly web applications using React.js, CSS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       //"Participating in code reviews and providing constructive feedback to other developers.",
@@ -129,12 +125,12 @@ const experiences = [
   },
   {
     title: "React.JS Developer",
-    company_name: "KMTN",
+    company_name: "Freelance",
     icon: kmtn,
     iconBg: "#E6DEDD",
     date: "April 2021 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing a user friendly web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -142,7 +138,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "KMTN",
+    company_name: "Freelance",
     icon: kmtn,
     iconBg: "#E6DEDD",
     date: "March 2023 - Present",
@@ -158,17 +154,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Tunde proved me wrong.",
+      "Tunde gives good attention to every details of every designs and execute it 100%. He was tasked with creation of websites landing page while at KMT",
     name: "Adeola",
     designation: "CEO",
-    company: "KMTN",
+    company: "KMT",
     //: "https://randomuser.me/api/portraits/women/4.jpg",
     image: "wande.jpeg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Tunde does.",
-    name: "Adebola A.",
+      "Tunde is a Frontend developer who truly cares about their clients' desires and success.",
+    name: "Elizabeth A.",
     designation: "CEO",
     company: "EverythinKiddies",
     //: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -176,7 +172,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Tunde optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "An intelligent Frontend developer, does cool work",
     name: "Clement O.",
     designation: "CEO",
     company: "POWER Co.",
@@ -188,7 +184,8 @@ const projects = [
   {
     name: "Power",
     description:
-      "A dashboard that allows the admins to tarck, analyse, and manage sales, expenses from various custoers and agents. It is a convenient and efficient solution sales analysis.",
+      "I was tasked to create the landing page of a dashboard that allows the admins to tarck, analyse, and manage sales, expenses from various custoers and agents. It is a convenient and efficient solution sales analysis.",
+      
     /*tags: [
       {
         name: "react",
@@ -204,12 +201,12 @@ const projects = [
       },
     ],*/
     image: power,
-    //source_code_link: "https://github.com/",
+    link: "https://powermin.netlify.app",
   },
   {
     name: "JobsNg",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A landing page of a Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     /*tags: [
       {
         name: "react",
@@ -225,7 +222,7 @@ const projects = [
       },
     ],*/
     image: jobsng,
-    //source_code_link: "https://github.com/",
+    link: "view. . .",
   },
   {
     name: "Kashin",
