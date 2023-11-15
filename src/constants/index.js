@@ -201,7 +201,7 @@ const projects = [
       },
     ],*/
     image: power,
-    link: "https://powermin.netlify.app",
+    link: "powermin.netlify.app",
   },
   {
     name: "JobsNg",
@@ -222,7 +222,7 @@ const projects = [
       },
     ],*/
     image: jobsng,
-    link: "view. . .",
+    link: "jobsng.netlify.app",
   },
   {
     name: "Kashin",
@@ -243,7 +243,7 @@ const projects = [
       },
     ],*/
     image: kashinSS,
-    //source_code_link: "https://github.com/",
+    //link: "everythingkiddies.netlify.app",
   },
 ];
 
